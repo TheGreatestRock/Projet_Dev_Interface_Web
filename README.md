@@ -6,4 +6,4 @@ THE GROUPE :
 -Sauner Quentin
 -Vieux-Melchior Victor
 
-(lien du site)[https://thegreatestrock.github.io/Projet_Dev_Interface_Web/]
+[lien du site](https://thegreatestrock.github.io/Projet_Dev_Interface_Web/)
