@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 250;
     border-bottom: 1px solid #000000;
     box-shadow: 0 0 10px #000000;
 }
@@ -106,94 +107,13 @@ hr {
     margin-right: 20px;
 
 }
-
-/* a filter in a flexbox*/
-#filter {
-    background-color: lightgray;
-    height: 100%;
-    width: 20%;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    z-index: 100;
-    border-bottom: 1px solid #000000;
-    box-shadow: 0 0 10px #000000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#filter h2{
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3.5vw;
-    font-weight: 600;
-    text-transform: uppercase;
-    float: left;
-}
-#filter h3 {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3.5vw;
-    font-weight: 600;
-    text-transform: uppercase;
-    float: left;
-}
-#filter ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-#filter ul li {
-    float: left;
-    position: relative;
-}
-#filter ul li a {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 15px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2vw;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-#filter ul li a:hover {
-    background-color: #000000;
-}
-#filter ul li a:hover:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 100%;
-    height: 5px;
-    background-color: #ffffff;
-}
-/* filter checkbox */
-#filter ul li input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 0px;
-    border: 0px;
-    float: left;
-    background-color: #000000;
-    color: #ffffff;
-}
-
 .product {
     background-color: white;
-    height: 100%;
-    width: 20%;
+    height: auto;
+    width: 20vw;
     position: relative;
-    top: 50px;
-    left: 20%;
+    top: 100px;
+    left: 30%;
     border-bottom: 1px solid #000000;
     box-shadow: 0 0 10px #000000;
     display: inline-block;
@@ -205,8 +125,6 @@ img
     width: 100%;
     height: 100%;
 }
-
-/* a filter in a flexbox*/
 #filter {
     background-color: lightgray;
     height: 100%;
@@ -273,7 +191,6 @@ img
     height: 5px;
     background-color: #ffffff;
 }
-/* filter checkbox */
 #filter ul li input[type="checkbox"] {
     width: 20px;
     height: 20px;
@@ -291,7 +208,6 @@ img
 
 
 
-/*color filter that look like a circular radio with a specific color*/
 #filter ul li input[type="radio"] {
     appearance: none;
     width: 20px;
@@ -306,7 +222,6 @@ img
 #filter ul li input[type="radio"]:checked {
     border: 4px solid black;
 }
-/* 10 different colors of background*/
 #filter ul li input[type="radio"].red {
     background-color: red;
 }
