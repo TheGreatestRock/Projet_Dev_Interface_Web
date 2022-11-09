@@ -95,8 +95,11 @@ h1 {
     background-color: #ffffff;
     color: #000000;
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    position: absolute;
+    left: 23.75%;
+    right: 23.12%;
+    top: 28%;
+    bottom: 28%;
     text-decoration: none;
     font-family: 'Public Sans', sans-serif;
     width: 194px;
