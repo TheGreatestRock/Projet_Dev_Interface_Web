@@ -94,6 +94,7 @@ h1 {
 .button1{
     background-color: #ffffff;
     color: #000000;
+    text-align: center;
     font-family: 'Public Sans', sans-serif;
     width: 194px;
     height: 50px;
