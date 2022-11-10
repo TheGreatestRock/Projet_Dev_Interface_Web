@@ -34,7 +34,7 @@
     bottom: -5px;
     width: 100%;
     height: 5px;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 #navbar ul li img{
     width: 5vh;
@@ -45,7 +45,7 @@
     margin-bottom: 0px;
     padding: 0px;
     border: 0px;
-    filter: invert(100%);
+    
 
 }
 #navbar ul li input{
@@ -67,9 +67,7 @@
     float: right;
 }
 
-.imageinv{
-    filter: invert(100%);
-}
+
 /*Headings*/
 h1 {
     font-family: 'SemiBold', sans-serif;
