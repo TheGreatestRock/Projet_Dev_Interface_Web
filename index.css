@@ -67,6 +67,8 @@
     float: right;
 }
 
+.imageinv{
+    filter: invert(100%);
 
 /*Headings*/
 h1 {
