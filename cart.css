@@ -82,8 +82,13 @@
     flex-direction: column;
 }
 
-.container_flex_theo{border: 1px white}
-.container_theo{display: flex;}
+.container_flex_theo{}
+.container_theo{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    margin: 20px 10px 10px 50px;
+}
 
 .article {
     display: flex;
