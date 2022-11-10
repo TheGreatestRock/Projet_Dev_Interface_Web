@@ -70,13 +70,22 @@
 }
 
 /* Corps*/
-.box_theo_1{border: 1px}
+.box_theo_1{
+    display: flex;
+    flex-direction: column;
+}
+
 .container_flex_theo{border: 1px white}
 .container_theo{display: flex;}
 
-.article {}
+.article {
+    display: flex;
+    padding: 20px 0 0 0;
+}
 
-.bouton1_theo{}
+.bouton1_theo{
+ 
+}
 .bouton2_theo{}
 
 .boutoninfo{}
