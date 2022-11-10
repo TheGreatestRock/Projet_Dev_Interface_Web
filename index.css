@@ -1,5 +1,5 @@
 #navbar {
-    background-color: #000000;
+    background-color: #ffffff;
     width: 100%;
     position: fixed;
     top: 0;
@@ -16,7 +16,7 @@
 }
 #navbar ul li a {
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     padding: 15px 20px;
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +25,7 @@
     text-transform: uppercase;
 }
 #navbar ul li a:hover {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 #navbar ul li a:hover:after {
     content: '';
@@ -34,7 +34,7 @@
     bottom: -5px;
     width: 100%;
     height: 5px;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 #navbar ul li img{
     width: 5vh;
@@ -57,8 +57,8 @@
     margin-bottom: 10px;
     padding: 0px;
     border: 0px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 .left{
     float: left;
