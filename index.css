@@ -202,3 +202,19 @@ left: 45.86%;
 right: 51.43%;
 top: calc(50% - 22px/2 - 153.5px);
 }
+
+.helpfooter{
+position: absolute;
+height: 22px;
+left: 60.93%;
+right: 36.57%;
+top: calc(50% - 22px/2 - 153.5px);
+}
+
+.aboutfooter{
+position: absolute;
+height: 22px;
+left: 76.07%;
+right: 20.71%;
+top: calc(50% - 22px/2 - 153.5px);
+}
