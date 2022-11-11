@@ -237,5 +237,9 @@ top: calc(50% - 22px/2 - 153.5px);
 
 footer ul {
 list-style-type:none;
-text-decoration: none;
+}
+
+.footerhref{
+    color: #5a5555;
+    text-decoration: none;
 }
