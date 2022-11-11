@@ -87,6 +87,16 @@
     font-family: sans-serif;
 }
 
+.ligne{
+    position: absolute;
+    width: 578px;
+    height: 0px;
+    left: 0px;
+    top: 45px;
+
+    border: 1px solid #000000;
+}
+
 
 .cart{
     display: flex;
