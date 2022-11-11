@@ -248,7 +248,7 @@ span::after {
 
 /*responsive*/
 
-@media all and (max-width: 1024px){
+@media handled{
     .cart{
         display: flex;
         flex-direction: column;
@@ -296,6 +296,13 @@ span::after {
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+    
+    .box_theo{
+        display: flex;
+        flex-flow: column wrap;
+        width: 40%;
+        margin: 20px 10px 10px 50px;
     }
     
     
