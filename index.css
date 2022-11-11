@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 250;
     border-bottom: 1px solid #000000;
     
 }
@@ -24,17 +25,15 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-#navbar ul li a:hover {
-    background-color: #ffffff;
-}
-#navbar ul li a:hover:after {
+
+
+#navbar ul li a:hover::after {
     content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
+    display: block;
     width: 100%;
-    height: 5px;
-    background-color: #ffffff;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s;
 }
 #navbar ul li img{
     width: 5vh;
