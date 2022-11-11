@@ -236,4 +236,14 @@ span::after {
 #m:checked + .slide {height: 30px;} 
 #m1:checked + .slide {height: 30px;} 
 
-/* Footer */
+/*responsive*/
+
+@media handled{
+    .Resume_Achats{
+        display: flex;
+        flex-flow: column;
+        width: 30%;
+        margin: 20px 10px 10px 60px;
+    }
+    
+}
