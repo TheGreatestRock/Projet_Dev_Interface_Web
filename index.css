@@ -134,3 +134,13 @@ h1 {
     display: flex;
     margin: 10px;
 }
+
+footer{
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 250;
+    border-top: 1px solid #000000;
+}
