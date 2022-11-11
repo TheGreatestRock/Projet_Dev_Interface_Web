@@ -234,3 +234,7 @@ left: 76.07%;
 right: 20.71%;
 top: calc(50% - 22px/2 - 153.5px);
 }
+
+.ulfooter{
+list-style-type:none;
+}
