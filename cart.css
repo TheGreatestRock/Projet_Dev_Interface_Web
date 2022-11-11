@@ -252,12 +252,41 @@ span::after {
         width: 100%;
         margin: 20px 10px 10px 60px;
     } 
-    
-    Res_cart{
+
+    /*Res_cart{
         width: 100%;
     }
 
     Res_Ach{
         width: 100%;
+    }*/
+
+    .Info_entier {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
+    
+    .trois_info{
+        width: 70%;
+        margin-left: 25%;
+    }
+
+    .Resume_Achats{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        margin: 20px 10px 10px 60px;
+    }
+
+    .Ensemble_produit{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    
 }
