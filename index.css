@@ -144,3 +144,11 @@ footer{
     z-index: 250;
     border-top: 1px solid #ffffff;
 }
+
+.titlefoo{
+    position: absolute;
+left: 10.36%;
+right: 61%;
+top: 10.74%;
+bottom: 78.76%;
+}
