@@ -94,7 +94,7 @@
     left: 0px;
     top: 45px;
 
-    border: 1px solid #000000;
+border: 1px solid #000000;
 }
 
 
@@ -189,7 +189,7 @@ select {
 
 /* Trois box*/
 
-.Info {
+.Info_entier {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -248,7 +248,7 @@ span::after {
 
 /*responsive*/
 
-@media all and (max-width: 1024px){
+@media handled{
     .cart{
         display: flex;
         flex-direction: column;
@@ -300,6 +300,3 @@ span::after {
     
     
 }
-
-/*début footer*/
-
