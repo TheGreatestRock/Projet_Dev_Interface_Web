@@ -1,94 +1,86 @@
+
 #navbar {
-    background-color: #000000;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    border-bottom: 1px solid #000000;
+  background-color: #000000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 250;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 0 10px #000000;
 }
 #navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
+  margin: 0;
+  padding: 0;
 }
 #navbar ul li {
-    float: left;
-    position: relative;
+  display: block;
 }
 #navbar ul li a {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 15px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-#navbar ul li a:hover {
-    background-color: #000000;
-}
-#navbar ul li a:hover:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 100%;
-    height: 5px;
-    background-color: #ffffff;
+#navbar ul li a:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s;
 }
 #navbar ul li img{
-    width: 5vh;
-    height: auto;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    border: 0px;
-    float: left;
-    filter: invert(100%);
+  width: 5vh;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 0px;
+  filter: invert(100%);
 
 }
 #navbar ul li input{
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 0px;
-    border: 0px;
-    float: right;
-    background-color: #000000;
-    color: #ffffff;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border: 0px;
+  background-color: #000000;
+  color: #ffffff;
 }
-/*search*/
-#search {
-    background-color: #000000;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    border-bottom: 1px solid #000000;
-    box-shadow: 0 0 10px #000000;
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.middle{
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -100px;
 }
 
 /* Container needed to position the button. Adjust the width as needed */
 .container {
-    position: relative;
+    position: absolute;
     width: 50%;
   }
   
   /* Make the image responsive */
   .container img {
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 80%;
     height: 75%;
   }
@@ -96,7 +88,7 @@
   /* Style the button and place it in the middle of the container/image */
   .container .btn {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 80%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -113,20 +105,83 @@
     background-color: black;
   }
 
-  .container .button1 {
+.entrer1{
+  box-sizing: border-box;
+  position: absolute;
+  left: 55.14%;
+  right: 33.64%;
+  top: 60%;
+  bottom: 32%;
+  border: 1px solid #000000;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.entrer2{
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  position: absolute;
+  right: 20%;
+  left: 68%;
+  top: 60%;
+  bottom: 32%;
+  text-align: left;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.entre{
+  position: absolute;
+  height: 20px;
+  left: 55.1%;
+  right: 20.57%;
+  top: 68%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.button1 {
+    right: 16.65%;
+    bottom: 28%;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 15%;
+    height: 8%;
+    left: 55%;
+    top: 75%;
     border: none;
-    color: white;
     background-color: black;
-    padding: 12px 25px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
+    letter-spacing: -0.4px;
     margin: 4px 2px;
     cursor: pointer;
   }
 
-  .container .button2 {
+.button2 {
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    left: 73%;
+    top: 75%;
     border: none;
     color: white;
     background-color: #49a2f3;
@@ -134,7 +189,58 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
+    right: 27.33%;
+    bottom: 28%;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px
   }
+
+h3{
+  position: absolute;
+  left: 55%;
+  right: 8.5%;
+  top: 16.44%;
+  bottom: 78.22%;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+h4{
+  position: absolute;
+  left: 55%;
+  right: 8.5%;
+  top: 25%;
+  bottom: 74.22%;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+p{
+  position: absolute;
+  width: 357px;
+  height: 96px;
+  left: 55%;
+  top: 37%;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
