@@ -1,5 +1,5 @@
 /*for pc*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 901px) {
     .phonenav{
         display: none;}
     #navbar {
@@ -394,7 +394,7 @@
     
     /*for phone*/
     /*for pc*/
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         #navbar{
             display: none;}
         .phonenav{
