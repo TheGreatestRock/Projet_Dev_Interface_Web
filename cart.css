@@ -9,13 +9,16 @@
     border-bottom: 1px solid #000000;
     box-shadow: 0 0 10px #000000;
 }
+
 #navbar ul {
     margin: 0;
     padding: 0;
 }
+
 #navbar ul li {
     display: block;
 }
+
 #navbar ul li a {
     display: block;
     color: #ffffff;
@@ -26,9 +29,11 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+
 #navbar ul li a:hover {
     background-color: #000000;
 }
+
 #navbar ul li a:hover:after {
     content: '';
     position: absolute;
@@ -38,6 +43,7 @@
     height: 5px;
     background-color: #ffffff;
 }
+
 #navbar ul li img{
     width: 5vh;
     height: auto;
@@ -50,6 +56,7 @@
     filter: invert(100%);
 
 }
+
 #navbar ul li input{
     width: 200px;
     height: 30px;
@@ -62,55 +69,175 @@
     background-color: #000000;
     color: #ffffff;
 }
+
 .left{
     float: left;
 }
+
 .right{
     float: right;
 }
 
-/* Corps*/
-.panier_theo{
+
+
+
+/*le milieur du site*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.panier{
     display: flex;
     width: 100vw;
     justify-content: center;
     padding: 20px;
 }
 
-.box_theo_1{
-    display: flex;
-    flex-direction: column;
-}
-
-.container_flex_theo{}
-.container_theo{
+.achats{
     display: flex;
     flex-flow: column wrap;
     width: 40%;
     margin: 20px 10px 10px 50px;
 }
 
-.article {
+h1{
+    margin-bottom: 10px;
+}
+
+
+.produits{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 129px;
+    height: 133px;
+}
+
+.produit{
     display: flex;
     padding: 20px 0 0 0;
 }
 
 
-
-.bouton1_theo{
- 
+.prod{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    line-height: 30px;
+    width: 100%;
 }
-.bouton2_theo{}
 
-.boutoninfo{}
+a{
+    color: #000000;
+    text-decoration-line: underline;
+}
 
-.barre{
-    margin-left: 15%;
-    padding:15px;
-    border-radius: 10px;
-  }
+.prod div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout{
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    margin: 20px 10px 10px 60px;
+}
 
 
-.h1{}
-.h2{}
-.h3{}
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0 0;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+}
+
+.recap{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 10px 0;
+}
+
+.checkout button{
+    background-color: black;
+    color: #FFFF;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.OrderInformation {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 55%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.contenu{
+    width: 70%;
+    margin-left: 25%;
+}
+
+span {
+    padding : 5px;
+    font-size : 1em;
+    font-variant : "sans-serif";
+    cursor : pointer;
+    display: block;
+}
+
+
+span::after {
+    float: right;
+    right: 10%;
+    content: "+";
+}
+
+
+.slide {
+    clear: both;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height .4s ease;
+}
+  
+.slide p {
+    padding : 10px;
+}
+  
+#touch {
+    position: absolute; 
+    opacity: 0; height: 
+    0px;
+}
+
+#touch1 {
+    position: absolute; 
+    opacity: 0; 
+    height: 0px;
+}   
+
+#touch2 {
+    position: absolute; 
+    opacity: 0; 
+    height: 0px;
+}       
+      
+  
+#touch:checked + .slide {height: 30px;} 
+#touch1:checked + .slide {height: 30px;} 
+#touch2:checked + .slide {height: 30px;} 
+
