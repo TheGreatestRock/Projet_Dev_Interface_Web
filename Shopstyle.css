@@ -439,14 +439,6 @@
                 text-transform: uppercase;
                 margin-top: 15px;
                 margin-right: 20px;}
-        /*filters like  :
-    
-            filters     
-    
-            types
-            type a   type b  type c
-            color
-            color a  color b  color c*/
         .filter {
             height: 100%;
             width: 100%;
