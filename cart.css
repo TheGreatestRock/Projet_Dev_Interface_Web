@@ -239,11 +239,13 @@ span::after {
 /*responsive*/
 
 @media all and (max-width: 1024px){
-    .Resume_Achats{
+    .cart{
         display: flex;
-        flex-flow: column;
+        flex-direction: column;
         width: 30%;
         margin: 20px 10px 10px 60px;
     }
+    
+}
     
 }
