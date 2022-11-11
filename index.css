@@ -143,4 +143,5 @@ footer{
     left: 0;
     z-index: 250;
     border-top: 1px solid #000000;
+    display: block;
 }
