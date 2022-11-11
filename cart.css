@@ -248,7 +248,7 @@ span::after {
 
 /*responsive*/
 
-@media handled{
+@media all and (max-width: 1024px){
     .cart{
         display: flex;
         flex-direction: column;
