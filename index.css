@@ -111,13 +111,7 @@ h1 {
     border: 2px solid #979797;
 }
 
-/*flexbox*/
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-}
+
 
 .image1{
     width: 70%;
@@ -134,7 +128,7 @@ h1 {
     display: flex;
     margin: 10px;
 }
-
+/*début footer*/
 footer{
     background-color: #ffffff;
     width: 100%;
@@ -149,6 +143,13 @@ footer{
 
 footer ul {
     margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
 }
 
 .titlefoo{
