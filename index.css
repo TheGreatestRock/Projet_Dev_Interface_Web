@@ -128,8 +128,8 @@ h1 {
 }
 
 .image2{
-    width: 10%;
+    width: 6%;
     height: auto;
-    display: block;
+    display: flex;
     margin: auto;
 }
