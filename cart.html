@@ -1,101 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="cart.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Uzed Panier </title>
 </head>
 <body>
 
-     <nav id="navbar">
-            <ul>
-                <li><a class="left" href="index.html">Home</a></li>
-                <li><a class="left" href="Shop.html">Shop</a></li>
-                <li><a class="left" href="About.html">About</a></li>
-                <li><input class="left" type="text" placeholder="Search.."></li>
-                <li><a class="right" href="login.html">Login</a></li>
-                <li><a class="right" href="cart.html"><img src="https://cdn.pixabay.com/photo/2013/07/12/14/53/cart-148964_960_720.png" alt="cart"></a></li>
+    <nav id="navbar">
+        <ul>
+            <li><a class="left" href="index.html">Home</a></li>
+            <li><a class="left" href="Shop.html">Shop</a></li>
+            <li><a class="left" href="About.html">About</a></li>
+            <li><input class="left" type="text" placeholder="Search.."></li>
+            <li><a class="right" href="login.html">Login</a></li>
+            <li><a class="right" href="cart.html"><img src="https://cdn.pixabay.com/photo/2013/07/12/14/53/cart-148964_960_720.png" alt="cart"></a></li>
 
-            </ul>
-        </nav>
-
- 
+        </ul>
+    </nav>
+    
 <main>
-    <div class="panier_theo">
-        <div class="container_theo container_flex_theo">
-            <div class="box_theo_1">
-                <div class="article">
-                    <a href="image article"></a>
-                    <h2>Blabla nom article</h2> 
-                    <br>
-                    <br>
-                    <div>
-                        <h3>size : l</h3>
-                        <br>
-                        <h3>Quantity : 1</h3>  
+    <div class="panier">
+        <div class="achats">
+            <h1> Votre panier </h1>
+            <p id="texte"> Pas encore prêt à poursuivre ? Continuer à acheter </p>
+                <div class="produits">
+                    <div class="produit">
+                            <img src="https://media.istockphoto.com/photos/australian-platypus-picture-id658344164" alt="teeshirttroué">
+                        <div class="prod">
+                            <h2> Cheese-shirt  </h2>
+                            <p> Taille : XXL </p>
+                            <br>
+                            <p> Quantité : 1 </p>
+                            <h3> 99€ </h3>
+                            <div>
+                                <a href="#"> Supprimer </a>
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <h2>99$</h2>                   
-                </div>
-                <hr>
-                <div class="article">
-                    <a href="image article"></a>
-                    <h2>Blabla nom article</h2> 
-                    <br>
-                    <br>
-                    <div>
-                        <h3>size : l</h3>
+                    <hr>
+                    <div class="produit">
+                        <img src="https://media.istockphoto.com/photos/australian-platypus-picture-id658344164" alt="teeshirttroué">
+                    <div class="prod">
+                        <h2> L'explosion </h2>
+                        <p> Taille : XL </p>
                         <br>
-                        <h3>Quantity : 1</h3>
+                        <p> Quantité : 1 </p>
+                        <h3> 99€ </h3>
+                        <div>
+                            <a href="#"> Supprimer </a>
+                        </div>
                     </div>
-                    <br>
-                    <h2>99$</h2>                   
                 </div>
-                <hr>
-
             </div>
+        </div>
+        
 
-            <div class="box_theo_2">
-                <h2>Order Summary</h2>
-                <div class="barre">
-                    <input type="text" placeholder="enter coupon code here">
+        <div class="checkout">
+            <div>
+                <br><br><br>
+                <h2> Récapitulation de la commande </h2>
+                <input type="text" placeholder="Entrer votre code de coupon ici..." id="texte">
+    
+                <div class="recap">
+                    <p> Prix des achats </p>
+                    <p> 198€ </p>
                 </div>
-                <h3>Subtotal 200$</h3>
-                <br>
-                <h3>Shipping Calculated at the next step</h3>
-                <br>
-                <h3>Total  $200</h3>
+                <div class="recap">
+                    <p> Livraison </p>
+                    <p style="color: grey;"> Calculé à la prochaine étape </p>
+                </div>
+                <hr style="border: 1px solid black;">
+                <div class="recap">
+                    <p> Total </p>
+                    <p> 198€ </p>
+                </div>
+                <br><br>
+                <button href="#" id="buy" type="submit"> Continuer pour acheter </button> 
             </div>
         </div>
     </div>
-    <div class="box_theo_3">
-        <div class="box_theo">
-            <h2>Order information</h2>
-            <br>
-        <div class="boutoninfo">
-            <h3>Return policy</h3>
-            <br>
-        </div>
-        <div class="boutoninfo">
-            <h3>Shipping option</h3>
-            <br>
-        </div>
-        <div class="boutoninfo">
-            <h3>Shipping option</h3>
-            <br>
-        </div>
-    </div>
-            
+    
+    <div class="OrderInformation">
+        <div class="contenu">
+            <h3> Information sur la commande </h3>
 
+            <br>
+            <hr style="border: 1px solid black; ">
+            <br>
+
+            <div class="info" style="color: grey;">
+                <label for="touch"><span> Politique de renvoie </span></label>               
+                <input type="checkbox" id="touch"> 
+
+                <div class="slide">
+                    <p href="#"> Ceci est un exemple de politique de renvoie. </p>
+                </div>
+                
+                <br>
+                <hr>
+                <br>
+
+                <label for="touch1"><span> Option de livraison </span></label>               
+                <input type="checkbox" id="touch1"> 
+
+                <div class="slide">
+                    <p href="#"> Voici les options de livraisons différentes disponible.</p> 
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <label for="touch2"><span> Option de livraison </span></label>               
+                <input type="checkbox" id="touch2"> 
+
+                <div class="slide">
+                    <p href="#"> Voici les options de livraisons différentes disponible.</p> 
+                </div>
+
+                <br>
+                <hr>
+                <br>
+            </div>
         </div>
     </div>
 </main>
-    
-    
+
+<footer>
+
+</footer>
+
 </body>
 </html>
-
-<a class="bouton1_theo" href=""></a>
-        <a class="bouton2_theo" href=""></a>
