@@ -78,10 +78,7 @@
     float: right;
 }
 
-
-
-
-/*le milieur du site*/
+/*le milieu du site*/
 
 * {
     box-sizing: border-box;
@@ -109,6 +106,7 @@ h1{
     margin-bottom: 10px;
 }
 
+/*box 1*/
 
 .Ensemble_produit{
     display: flex;
@@ -144,6 +142,8 @@ a{
     justify-content: flex-end;
 }
 
+/*Box 2*/
+
 .Resume_Achats{
     display: flex;
     flex-flow: column wrap;
@@ -177,6 +177,8 @@ select {
     cursor: pointer;
 }
 
+/* Trois box*/
+
 .Info {
     display: flex;
     flex-flow: column wrap;
@@ -206,7 +208,6 @@ span::after {
     content: "+";
 }
 
-
 .deroulement {
     clear: both;
     width: 100%;
@@ -218,27 +219,21 @@ span::after {
 .deroulement p {
     padding : 10px;
 }
-  
-#touch {
+
+#m {
     position: absolute; 
     opacity: 0; height: 
     0px;
 }
 
-#touch1 {
+#m1 {
     position: absolute; 
     opacity: 0; 
     height: 0px;
-}   
-
-#touch2 {
-    position: absolute; 
-    opacity: 0; 
-    height: 0px;
-}       
+}        
       
   
-#touch:checked + .slide {height: 30px;} 
-#touch1:checked + .slide {height: 30px;} 
-#touch2:checked + .slide {height: 30px;} 
+#m:checked + .slide {height: 30px;} 
+#m1:checked + .slide {height: 30px;} 
 
+/* Footer */
