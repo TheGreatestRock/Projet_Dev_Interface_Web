@@ -78,6 +78,16 @@ h1 {
     padding: 0;
 }
 
+h5 {
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: -0.4px;
+color: #111111;
+}
+
 /*paragraphs*/
 .p1 {
     font-family: 'Public Sans', sans-serif;
