@@ -253,7 +253,11 @@ span::after {
         margin: 20px 10px 10px 60px;
     } 
     
-    .Res_cart{
+    Res_cart{
+        width: 100%;
+    }
+
+    Res_Ach{
         width: 100%;
     }
 }
