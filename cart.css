@@ -242,10 +242,14 @@ span::after {
     .cart{
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 100%;
         margin: 20px 10px 10px 60px;
     }
-    
-}
-    
+
+    .Info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 10px 10px 60px;
+    }   
 }
