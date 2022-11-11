@@ -161,7 +161,14 @@ font-style: normal;
 font-weight: 600;
 font-size: 36px;
 line-height: 44px;
-
 letter-spacing: -1.5px;
-
 color: #000000;
+}
+
+.textshop{
+position: absolute;
+height: 208px;
+left: 45.86%;
+right: 40.57%;
+top: calc(50% - 208px/2 - 17.5px);
+}
