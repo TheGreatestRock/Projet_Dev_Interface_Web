@@ -187,6 +187,22 @@ right: 40.57%;
 top: calc(50% - 208px/2 - 17.5px);
 }
 
+.texthelp{
+position: absolute;
+height: 130px;
+left: 60.93%;
+right: 25.5%;
+top: calc(50% - 130px/2 - 56.5px);
+}
+
+.textabout{
+position: absolute;
+height: 104px;
+left: 76.07%;
+right: 10.36%;
+top: calc(50% - 104px/2 - 69.5px);
+}
+
 .email{
 position: absolute;
 width: 398px;
