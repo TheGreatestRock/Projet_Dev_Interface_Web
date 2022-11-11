@@ -81,7 +81,6 @@ hr {
     background-color: #000000;
     height: 50px;
     width: 100%;
-    position: absolute;
     top: auto;
     left: 0;
     z-index: 200;
@@ -122,10 +121,51 @@ hr {
     flex-direction: column;
     justify-content: space-between;
 }
-.order {
+.product a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: left;
+}
+.product :hover{
+    color: blue;
+}   
+.topbeforeproduit{
     position: relative;
+    display: flex;
     left: 60%;
     top: 60px;
+}
+.sort {
+    border: #000000 1px solid;
+    overflow: hidden;
+    position: absolute;
+    right: auto;
+    top: 38%;
+    left: 72%;
+}
+.sort select{
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+    color: black;
+}
+.lightgraytext{
+    color: #969696;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    float: left;
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    left: 12%;
+    top: 40vh;
 }
 
 img
@@ -133,7 +173,7 @@ img
     width: 100%;
     height: 100%;
 }
-#filter {
+.filter {
     height: 100%;
     width: 12%;
     top: 50px;
@@ -144,7 +184,7 @@ img
     flex-direction: column;
     justify-content: space-between;
 }
-#filter h2{
+.filter h2{
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5vw;
@@ -152,7 +192,7 @@ img
     text-transform: uppercase;
     float: left;
 }
-#filter h3 {
+.filter h3 {
     color: #000000;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -161,17 +201,17 @@ img
     text-transform: uppercase;
     float: left;
 }
-#filter ul {
+.filter ul {
     list-style: none;
     margin: 0;
     padding: 0;
     position: relative;
 }
-#filter ul li {
+.filter ul li {
     float: left;
     position: relative;
 }
-#filter ul li a {
+.filter ul li a {
     display: block;
     color: #000000;
     text-decoration: none;
@@ -181,10 +221,10 @@ img
     font-weight: 600;
     text-transform: uppercase;
 }
-#filter ul li a:hover {
+.filter ul li a:hover {
     background-color: #000000;
 }
-#filter ul li a:hover:after {
+.filter ul li a:hover:after {
     content: '';
     position: absolute;
     left: 0;
@@ -193,24 +233,44 @@ img
     height: 5px;
     background-color: #000000;
 }
-#filter ul li input[type="checkbox"] {
-    width: 10px;
-    height: auto;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    padding: 0px;
-    border: 0px;
-    float: left;
-    background-color: #000000;
-    color: #000000;
+.filter ul li input[type="checkbox"] {
+    display: none;
+}
+.filter ul li label {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.filter ul li label:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000000;
+}
+.filter ul li label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: black;
+    opacity: 0;
+    transition: all 0.2s;
+}
+.filter ul li input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+.filter ul li input[type="checkbox"]:checked + label:before {
+    background-color: black;
 }
 
-
-
-
-#filter ul li input[type="radio"] {
+.filter ul li input[type="radio"] {
     appearance: none;
     width: 20px;
     height: 20px;
@@ -221,36 +281,36 @@ img
     margin-right: 10px;
     background-color: lightgray;
 }
-#filter ul li input[type="radio"]:checked {
+.filter ul li input[type="radio"]:checked {
     border: 3.5px solid black;
 }
-#filter ul li input[type="radio"].orange {
+.filter ul li input[type="radio"].orange {
     background-color: rgb(223, 145, 103);
 }
-#filter ul li input[type="radio"].violet {
+.filter ul li input[type="radio"].violet {
     background-color: rgb(123, 97, 255);
 }
-#filter ul li input[type="radio"].vert_fonce {
+.filter ul li input[type="radio"].vert_fonce {
     background-color: rgb(33, 150, 83);
 }
-#filter ul li input[type="radio"].bleu {
+.filter ul li input[type="radio"].bleu {
     background-color: rgb(47, 128, 237);
 }
-#filter ul li input[type="radio"].red {
+.filter ul li input[type="radio"].red {
     background-color: rgb(235, 87, 87);
 }
-#filter ul li input[type="radio"].purple {
+.filter ul li input[type="radio"].purple {
     background-color: purple;
 }
-#filter ul li input[type="radio"].pink {
+.filter ul li input[type="radio"].pink {
     background-color: pink;
 }
-#filter ul li input[type="radio"].brown {
+.filter ul li input[type="radio"].brown {
     background-color: brown;
 }
-#filter ul li input[type="radio"].gray {
+.filter ul li input[type="radio"].gray {
     background-color: gray;
 }
-#filter ul li input[type="radio"].white {
+.filter ul li input[type="radio"].white {
     background-color: white;
 }

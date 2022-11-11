@@ -26,90 +26,102 @@
 
         
         </div>
-        <br><br><br><br><br><br><br><br><br><br>
         <div>
             <!--filters on the left side-->
             <!--filter by type-->
-            <div id="filter" class="left">
-                <h2>filtres</h2>
+            <div class="left filter">
+                <h2>filtres <span class="lightgraytext absolute">clear filter</span></h2> 
                 <h3>type</h3>
                 <ul>
                     <li><input type="checkbox" id="type1" name="type1" value="type1">
                         <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">
-                        <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">                        
-                        <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">
-                        <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">
-                        <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">
-                        <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">
-                        <label for="type1">Type 1</label></li><br>
-                    <li><input type="checkbox" id="type1" name="type1" value="type1">
-                        <label for="type1">Type 1</label></li><br>
+                    <li><input type="checkbox" id="type2" name="type2" value="type2">
+                        <label for="type2">Type 2</label></li><br>
+                    <li><input type="checkbox" id="type3" name="type3" value="type3">                        
+                        <label for="type3">Type 3</label></li><br>
+                    <li><input type="checkbox" id="type4" name="type4" value="type4">
+                        <label for="type4">Type 4</label></li><br>
+                    <li><input type="checkbox" id="type5" name="type5" value="type5">
+                        <label for="type5">Type 5</label></li><br>
+                    <li><input type="checkbox" id="type6" name="type6" value="type6">
+                        <label for="type6">Type 6</label></li><br>
+                    <li><input type="checkbox" id="type7" name="type7" value="type7">
+                        <label for="type7">Type 7</label></li><br>
+                    <li><input type="checkbox" id="type8" name="type8" value="type8">
+                        <label for="type8">Type 8</label></li><br>
             <!--filter by color--> 
                 </ul>
                     <h3>Color</h3><br>
-                    <!--red blue green yellow orange purple pink brown gray white -->
                 <ul>
-                    <li><input type="radio" class="red" name="color" value="red">  
-                    <li><input type="radio" class="blue" name="color" value="blue">
-                    <li><input type="radio" class="green" name="color" value="green">
-                    <li><input type="radio" class="yellow" name="color" value="yellow">
-                    <li><input type="radio" class="orange" name="color" value="orange">
+                    <li><input type="radio" class="orange" name="color" value="orange">  
+                    <li><input type="radio" class="violet" name="color" value="violet">
+                    <li><input type="radio" class="vert_fonce" name="color" value="vert_fonce">
+                    <li><input type="radio" class="bleu" name="color" value="bleu">
+                    <li><input type="radio" class="red" name="color" value="red">
                     <li><input type="radio" class="purple" name="color" value="purple">
                     <li><input type="radio" class="pink" name="color" value="pink">
                     <li><input type="radio" class="brown" name="color" value="brown">
                     <li><input type="radio" class="gray" name="color" value="gray">
                     <li><input type="radio" class="white" name="color" value="white">
                 </ul>           
-
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         </div>
         <br>
-        <div class="order">
-            <select name="order by">
-                <option value="pertinence">pertinence</option>
-                <option value="croissant">prix croissant</option>
-                <option value="decroissant">prix décroissant</option>
-                <option value="evaluations">evaluations</option>
-            </select>
-            <p>152131 produits</p>
-        </div>
+            <div class="sort topbeforeproduit">
+                <p class="lightgraytext">Sort By</p>
+                <select name="sort by">
+                    <option value="pertinence">pertinence</option>
+                    <option value="croissant">prix croissant</option>
+                    <option value="decroissant">prix décroissant</option>
+                    <option value="evaluations">evaluations</option>
+                </select>
+            </div>
+            <p class="topbeforeproduit">152131 produits</p>
+        
         <div class="middle">
             <div class="product">
-                <img src="1200px-Ornithorhynchus.jpg" alt="product1" />
-                <a href="Product Page 02.html">Product 1</a>
-                <p>10$</p>
+                <a href="Product Page 02.html">
+                    <img src="1200px-Ornithorhynchus.jpg" alt="product1" />
+                    <h3>Product 1</h3>
+                    <p>10$</p>
+                </a>
             </div>
             <div class="product">
-                <img src="1200px-Ornithorhynchus.jpg" alt="product2" />
-                <a href="Product Page 02.html">Product 2</a>
-                <p>20$</p>
+                <a href="Product Page 02.html">
+                    <img src="1200px-Ornithorhynchus.jpg" alt="product2" />
+                    <h3>Product 2</h3>
+                    <p>20$</p>
+                </a>
             </div>
             <div class="product">
-                <img src="1200px-Ornithorhynchus.jpg" alt="product3" />
-                <a href="Product Page 02.html"> Product 3</a>
-                <p>30$</p>
+                <a href="Product Page 02.html">
+                    <img src="1200px-Ornithorhynchus.jpg" alt="product3" />
+                    <h3>Product 3</h3>
+                    <p>30$</p>
+                </a>
             </div>
             <br>
             <div class="product">
-                <img src="1200px-Ornithorhynchus.jpg" alt="product4" />
-                <a href="Product Page 02.html">Product 4</a>
-                <p>40$</p>
+                <a href="Product Page 02.html">
+                    <img src="1200px-Ornithorhynchus.jpg" alt="product4" />
+                    <h3>Product 4</h3>
+                    <p>40$</p>
+                </a>
             </div>
             <div class="product">
-                <img src="1200px-Ornithorhynchus.jpg" alt="product5" />
-                <a href="Product Page 02.html">Product 5</a>
-                <p>50$</p>
+                <a href="Product Page 02.html">
+                    <img src="1200px-Ornithorhynchus.jpg" alt="product5" />
+                    <h3>Product 5</h3>
+                    <p>50$</p>
+                </a>
             </div>
             <div class="product">
-                <img src="1200px-Ornithorhynchus.jpg" alt="product6" />
-                <a href="Product Page 02.html">Product 6</a>
-                <p>60$</p>
+                <a href="Product Page 02.html">
+                    <img src="1200px-Ornithorhynchus.jpg" alt="product6" />
+                    <h3>Product 6</h3>
+                    <p>60$</p>
+                </a>
             </div>
         </div>
 </body>
