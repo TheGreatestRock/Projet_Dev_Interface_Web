@@ -82,6 +82,7 @@
 
 
 /*le milieur du site*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -90,14 +91,14 @@
 }
 
 
-.panier{
+.cart{
     display: flex;
     width: 100vw;
     justify-content: center;
     padding: 20px;
 }
 
-.achats{
+.box_theo{
     display: flex;
     flex-flow: column wrap;
     width: 40%;
@@ -109,7 +110,7 @@ h1{
 }
 
 
-.produits{
+.Ensemble_produit{
     display: flex;
     flex-direction: column;
 }
@@ -119,13 +120,13 @@ img{
     height: 133px;
 }
 
-.produit{
+.Unite_produit{
     display: flex;
     padding: 20px 0 0 0;
 }
 
 
-.prod{
+.Descriptif_produit{
     display: flex;
     flex-direction: column;
     padding-left: 15px;
@@ -138,12 +139,12 @@ a{
     text-decoration-line: underline;
 }
 
-.prod div{
+.Descriptif_produit div{
     display: flex;
     justify-content: flex-end;
 }
 
-.checkout{
+.Resume_Achats{
     display: flex;
     flex-flow: column wrap;
     width: 30%;
@@ -160,7 +161,7 @@ select {
     box-sizing: border-box;
 }
 
-.recap{
+.Resume{
     display: flex;
     justify-content: space-between;
     padding: 18px 0 10px 0;
@@ -176,7 +177,7 @@ select {
     cursor: pointer;
 }
 
-.OrderInformation {
+.Info {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -185,7 +186,7 @@ select {
     margin-bottom: 2%;
 }
 
-.contenu{
+.trois_info{
     width: 70%;
     margin-left: 25%;
 }
@@ -206,7 +207,7 @@ span::after {
 }
 
 
-.slide {
+.deroulement {
     clear: both;
     width: 100%;
     height: 0;
@@ -214,7 +215,7 @@ span::after {
     transition: height .4s ease;
 }
   
-.slide p {
+.deroulement p {
     padding : 10px;
 }
   
